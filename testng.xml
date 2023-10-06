@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testingbaba" parallel="methods" thread-count="5">
+	
+	<parameter name="env" value="staging"></parameter>
+	<parameter name="browsername" value="chrome"></parameter>
+	
+  <test name="LoginTest" enabled="false">
+    <classes>
+		<class name="tests.LoginTest"/>
+	</classes>
+  </test> <!-- Test -->
+  <test name="RadioButton_Test" enabled="false">
+	<classes>
+   <class name="tests.RadioButton_Test"/>
+	    </classes>
+    </test> <!-- Test -->
+     <test name="TextBox_test" enabled="false">
+	<classes>
+	  <class name="tests.TextBox_test"/>  
+	  </classes>
+	  </test> <!-- Test -->
+     <test name="WebTable_test" enabled="false">
+	<classes>
+	  <class name="tests.WebTable_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Checkbox_test" enabled="false">
+	<classes>
+	  <class name="tests.Checkbox_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Button_test" enabled="true">
+	<classes>
+	  <class name="tests.Button_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Menu_test" enabled="false">
+	<classes>
+	  <class name="tests.Menu_test"/>  
+	  </classes>
+	  </test>
+	   <test name="Link_test" enabled="false">
+	<classes>
+	  <class name="tests.Link_test"/>  
+	  </classes>
+	  </test>
+	   <test name="Alert_test" enabled="false">
+	<classes>
+	  <class name="tests.Alert_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Upload_downlode_test" enabled="false">
+	<classes>
+	  <class name="tests.Upload_downlode_test"/>  
+	  </classes>
+	  </test>
+	   <test name="Browser_Window_test" enabled="false">
+	<classes>
+	  <class name="tests.Browser_Window_test"/>  
+	  </classes>
+	  </test>
+	   <test name="Frame_test" enabled="false">
+	<classes>
+	  <class name="tests.Frame_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Nasted_frame_test" enabled="false">
+	<classes>
+	  <class name="tests.Nasted_frame_test"/>  
+	  </classes>
+	  </test>
+	   <test name="Model_dailoge_test" enabled="false">
+	<classes>
+	  <class name="tests.Model_dailoge_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Select_menu_test" enabled="false">
+	<classes>
+	  <class name="tests.Select_menu_test"/>  
+	  </classes>
+	  </test>
+	  <test name="Tabs_test" enabled="false">
+	<classes>
+	  <class name="tests.Tabs_test"/>  
+	  </classes>
+	  </test></suite> <!-- Suite -->
